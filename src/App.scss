@@ -1,0 +1,35 @@
+.wrapper {
+  background: green;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-red {
+  color: red;
+  font-size: 14px;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+p {
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+.gameInfo {
+  margin-top: 50px;
+  &__content {
+    justify-content: space-between;
+  }
+  &__content,
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-incorrect {
+    color: red;
+  }
+  &__item {
+    &-left {
+      background: #67b567;
+      width: 65%;
+      border-radius: 5px;
+      padding: 15px 60px 15px 16px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      color: #0c370c;
+    }
+    &-right {
+      color: white;
+    }
+    &-totalCount {
+      margin-right: 60px;
+      letter-spacing: 1px;
+    }
+  }
+  &__btn {
+    padding: 10px;
+    border: none;
+    background: red;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+  }
+}

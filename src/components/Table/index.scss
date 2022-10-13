@@ -1,0 +1,27 @@
+.table {
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__body {
+    &-row {
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+    }
+    &-data {
+      border-right: 1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 10px;
+      button {
+        width: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.modalUser {
+  &__title {
+    font-weight: 400;
+    font-size: 22px;
+  }
+  &__form {
+    &-action {
+      flex-direction: column;
+    }
+    &-button {
+      width: 100%;
+      background: rgb(99, 99, 193);
+      margin-top: 20px;
+    }
+    &-hint {
+      color: red;
+      font-size: 13px;
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
+  }
+}

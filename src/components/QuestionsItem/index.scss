@@ -1,0 +1,40 @@
+.questionsItem {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__category {
+    color: white;
+    text-transform: uppercase;
+  }
+  &__buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  &__button {
+    background: rgb(2, 56, 18);
+    padding: 10px 80px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    &.correct {
+      background: rgb(23, 108, 48);
+      color: #ca3a3a;
+      &:disabled {
+        cursor: unset;
+      }
+    }
+    &.incorrect {
+      background: rgb(202, 120, 124);
+      color: #c62e2e;
+      &:disabled {
+        cursor: unset;
+      }
+    }
+  }
+}

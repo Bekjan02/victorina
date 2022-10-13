@@ -1,0 +1,24 @@
+@import "./components/Modal/index.scss";
+@import "./components/QuestionsItem/index.scss";
+@import "./components/Header/index.scss";
+@import "./components/Table/index.scss";
+@import "./components/ModalUser/index.scss";
+@import "./components/Loader/index.scss";
+@import "./assets/scss/components/gameInfo.scss";
+@import "./assets/scss/components/btn.scss";
+@import "./assets/scss/pages/stat.scss";
+@import "./assets/scss/pages/game.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
